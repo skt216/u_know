@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/loginRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/transparent"
+                android:textColor="#3a3a3a"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Login"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/icon"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_text"
+                android:layout_marginTop="45dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/username_error"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Username"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/shopping_list_add_item_text"
+                        android:textColorHint="@color/shopping_list_add_item_hint"
+                        android:textSize="@dimen/label_text_size" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/btn_forgot_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
+                    android:textColor="#3a3a3a"
+                    android:textSize="14sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phone_error"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phone_num_edtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="PhoneNumber"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@color/shopping_list_add_item_text"
+                        android:textColorHint="@color/shopping_list_add_item_hint"
+                        android:textSize="@dimen/label_text_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/error_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/verify_phone_num"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/l1"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:letterSpacing="-0.01"
+                android:text="Verify Phone Number"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/btn_text_size"
+                app:cornerRadius="4dp" />
+
+
+            <LinearLayout
+                android:id="@+id/signup_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/dont_have_an_acnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#212121"
+                    android:textSize="@dimen/btn_text_size" />
+
+                <TextView
+                    android:id="@+id/signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="@dimen/btn_text_size" />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

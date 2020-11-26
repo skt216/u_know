@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Uknow" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lb_cobalt</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/lit_grey</item>
+        <item name="colorPrimaryDark">@color/lb_cobalt</item>
+        <item name="colorAccent">@color/lb_cobalt</item>
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="colorPrimary">@color/lb_cobalt</item>
+    </style>
+</resources>

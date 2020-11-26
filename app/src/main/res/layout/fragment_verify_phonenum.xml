@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/current_card_color"
+    android:gravity="center"
+    android:padding="23dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_root_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/verify_phone_otp_error"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/verify_phone_otp_value"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter OTP"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@color/shopping_list_add_item_text"
+                android:textColorHint="@color/shopping_list_add_item_hint"
+                android:textSize="@dimen/label_text_size" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/verify_phone_otp_error"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:letterSpacing="-0.01"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size"
+            app:cornerRadius="4dp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/prog_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+</RelativeLayout>

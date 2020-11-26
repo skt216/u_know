@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Uknow</string>
+    <string name="btn_submit">Submit</string>
+    <string name="title">Information</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_email_address">Email Address</string>
+    <string name="qualification_details">Qualification</string>
+    <string name="specialisation_details">Specialisation</string>
+    <string name="lb_telephone_number">Telephone Number</string>
+
+
+    <!-- Terms And Conditions -->
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions_agree">I agree to the </string>
+    <string name="terms_and_conditions"><a href="terms:">Terms and Conditions</a></string>
+    <string name="privacy_and_policy"><a href="terms:">Privacy Policy</a></string>
+
+</resources>

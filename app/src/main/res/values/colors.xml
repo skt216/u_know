@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="green">#00FF</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="hightlightgreen">#5EA000</color>
+    <color name="olivedrab">#64C911</color>
+    <color name="dark_grey">#555555</color>
+    <color name="purple">#1d6c96</color>
+    <color name="purple2">#BB781D7D</color>
+    <color name="purple3">#11781D7D</color>
+    <color name="tutorial_overlay_bg">#DD000000</color>
+
+    <!-- Tutorial Colors -->
+    <color name="tut_checkout_theme_color">#FFC107</color>
+    <color name="tut_prod_theme_color">#009933</color>
+    <color name="menu_title_color">#3399ff</color>
+    <color name="settings_btn_bg_color">#a29f9f</color>
+    <color name="app_text_color">#3498DB</color>
+
+    <color name="grey">#424242</color>
+    <color name="lit_grey0">#22d3d3d3</color>
+    <color name="lit_grey1">#77d3d3d3</color>
+    <color name="lit_grey">#e0e0e0</color>
+    <color name="lit_grey3">#808080</color>
+    <color name="lit_grey4">#C2C2C2</color>
+    <color name="greyish2">#b0b0b0</color>
+    <color name="orange">#FF4500</color>
+    <color name="lit_orange">#FFA500</color>
+    <color name="grey_white">#55FFFFFF</color>
+
+    <color name="dk_grey">#313233</color>
+    <color name="lit_grey5">#616365</color>
+    <color name="lit_grey6">#EBEBEB</color>
+    <color name="lit_grey7">#F4F4F4</color>
+    <color name="lit_grey8">#BDBDBD</color>
+    <color name="black_text">#212121</color>
+    <color name="bg_grey">#D0D0D0</color>
+
+    <color name="scan_inactive_bg_color">#F5F5F5</color>
+    <color name="scan_active_bg_color">#919191</color>
+    <color name="wallet_card_overlay">#A6000000</color>
+
+    <color name="lb_payment_success">#417505</color>
+    <color name="lb_payment_fail">#D0021B</color>
+    <color name="screen_bg">#fafafa</color>
+
+
+    <color name="body_text_color">#333333</color>
+    <color name="body_text_color_light">#666666</color>
+    <color name="black_50">#80141414</color>
+
+    <color name="button_pressed">#669900</color>
+    <color name="button_unpressed">#99CC00</color>
+    <color name="button_disabled">#ebebeb</color>
+    <color name="button_disbbled_text_color">#999999</color>
+    <color name="button_enabled_text_color">#333333</color>
+    <color name="button_text_color">#333333</color>
+
+    <color name="receipt_body_bkg">#ffffff</color>
+    <color name="receipt_highlight_bkg">#1d6c96</color>
+    <color name="receipt_highlight_text">#ffffff</color>
+    <color name="receipt_highlight_text_google_pay">#1278BC</color>
+
+    <color name="listview_divider">#c2c2c2</color>
+    <color name="listview_item_selected">#99cc00</color>
+    <color name="listview_item_pressed">#99cc00</color>
+    <color name="listview_item_unpressed">#ffffff</color>
+    <color name="listview_cache_color">#ffffff</color>
+
+    <color name="listview_disabled_text">#999999</color>
+
+    <color name="tutorial_indicator_on">#99CC00</color>
+    <color name="tutorial_indicator_off">#333333</color>
+    <color name="tutorial_bkg_start">#eceaec</color>
+    <color name="tutorial_bkg_end">#cfd0cf</color>
+    <color name="tutorial_panel_bkg">#f1f1f1</color>
+    <color name="cart_details_divider">#cccccc</color>
+
+    <color name="menu_bkg">#ffffff</color>
+    <color name="menu_heading">#1d6c96</color>
+    <color name="menu_list_pressed">#99cc00</color>
+    <color name="menu_list_unpressed">#ffffff</color>
+    <color name="menu_disabled_bkg">#f4f4f4</color>
+
+    <color name="terms_conditions_link">#005ae7</color>
+
+    <!-- Action Bar -->
+    <color name="action_bar_header">#1d6c96</color>
+    <color name="action_bar_footer">#1d6c96</color>
+    <color name="action_bar_text">#FFFFFF</color>
+
+    <!-- Offers Colors -->
+    <color name="offers_tab_title">#ffffff</color>
+    <color name="offers_tab_offer_number">#ffffff</color>
+    <color name="offers_swipe_hint">#ffffff</color>
+    <color name="offers_image_background">#e5e6e7</color>
+    <color name="offers_image_count">#999999</color>
+    <color name="offers_image_text">#333333</color>
+    <color name="offers_content_number_text">#f98a2f</color>
+
+    <!-- Cart Colors -->
+    <color name="cart_tab_title">#ffffff</color>
+    <color name="cart_list_item_details_bkg">#f0f0f0</color>
+    <color name="cart_list_footer_lines">#999999</color>
+    <color name="cart_savings">#f22d09</color>
+    <color name="cart_scanit_savings">#1d6c96</color>
+    <color name="cart_alert_text">#343433</color>
+    <color name="cart_alert_bkg">#fecb57</color>
+    <color name="cart_content_bkg">#ffffff</color>
+    <color name="cart_details_bkg">#ffffff</color>
+    <color name="cart_list_container_bkg">#ffffff</color>
+    <color name="cart_list_view">#ffffff</color>
+
+    <color name="cart_empty_bkg">#ffffff</color>
+
+    <!-- Scan View -->
+
+    <color name="scan_view_description">#ffffff</color>
+    <color name="scan_view_rapidscan">#ffffff</color>
+    <color name="scan_view_done">#99cc00</color>
+    <color name="scan_view_item_number_zero">#ffffff</color>
+    <color name="scan_view_item_number">#99cc00</color>
+    <color name="scan_view_item_description">#ffffff</color>
+    <color name="scan_view_item_price">#ffffff</color>
+    <color name="scan_view_checkout_green">#669900</color>
+    <color name="scan_view_checkout_white">#ffffff</color>
+    <color name="scan_view_green">#99CC00</color>
+    <color name="scan_view_white">#ffffff</color>
+    <color name="scan_view_gray">#ebebeb</color>
+
+    <!-- Contacts -->
+    <color name="contact_heading">#666666</color>
+    <color name="contact_title">#333333</color>
+    <color name="contact_number">#005AE7</color>
+    <color name="contact_descriptions">#cccccc</color>
+
+    <!-- Shopping List -->
+    <color name="shopping_list_bkg">#DDDDDD</color>
+    <color name="shopping_list_add_item_bkg">#EFEFEF</color>
+    <color name="shopping_list_add_item_hint">#7b7b7b</color>
+    <color name="shopping_list_add_item_text">#000000</color>
+    <color name="shopping_list_add_item_outline">#8CC440</color>
+    <color name="shopping_list_divider">#CCCCCC</color>
+    <color name="shopping_list_row_bkg_checked">#DDDDDD</color>
+    <color name="shopping_list_row_bkg_unchecked">#EFEFEF</color>
+    <color name="shopping_list_row_text_checked">#888888</color>
+    <color name="shopping_list_row_text_unchecked">#333333</color>
+
+    <color name="tut_text_color0">#F5A717</color>
+    <color name="tut_text_color1">#616365</color>
+
+    <color name="page_ind_color1">#1d6c96</color>
+    <color name="darkish_purple">#1d6c96</color>
+    <!--<color name="light_eggplant">#774095</color>-->
+    <color name="warm_grey">#919191</color>
+    <color name="greyish">#a7a7a7</color>
+    <color name="lb_cobalt">#1d6c96</color>
+    <color name="lb_lightnavy">#185c81</color>
+    <color name="lb_pinkish">#d0d0d0</color>
+
+    <color name="appbg">#fafafa</color>
+    <color name="current_card_color">#CEDEE6</color>
+
+    <color name="acc_text_color">#000000</color>
+
+    <color name="delete_card_text_color">#757575</color>
+
+
+</resources>
